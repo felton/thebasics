@@ -17,7 +17,7 @@ int main(){
 
 	curl = curl_easy_init();
 	if(curl){
-		curl_easy_setopt(curl, CURLOPT_URL, "http://www.github.com");
+		curl_easy_setopt(curl, CURLOPT_URL, "http://www.google.com");
 		result = curl_easy_perform(curl);
 		
 		if(result != CURLE_OK)
